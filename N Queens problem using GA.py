@@ -1,6 +1,4 @@
-##ASSIGNMENT 5
-##Name: Rujuta Vaze
-##ID: 2016uee1346
+
 ## N Queen's Problem using Genetic Algorithm
 
 import random
