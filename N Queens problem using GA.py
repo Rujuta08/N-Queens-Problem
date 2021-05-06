@@ -8,10 +8,9 @@ import numpy as np
 Define function to generate random population for NxN chess board
 For each combination, an array of length N is defined.
 (position of element, value of element) = position of queen on board (row,column)
-eg for a random chromosome {2,5,6,1,3,4,8,7}
-= position of queen for 1st column is in 2nd row, 2nd column is 5th row and so on...
-using such a denotation,
-we eliminate the possibility of having more than one queens placed in a single column
+eg for a random chromosome {2,5,6,1,3,4,8,7}= position of queen for 1st column is in
+2nd row, 2nd column is 5th row and so on. Using such a denotation, we eliminate the
+possibility of having more than one queens placed in a single column.
 '''
 def Initialize_Population(size,N):
     
